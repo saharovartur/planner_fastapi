@@ -7,7 +7,7 @@ from typing import List
 
 event_router = APIRouter(tags=["Events"])
 
-#events = []
+
 
 
 @event_router.get("events/", response_model=List[Event])
