@@ -3,7 +3,7 @@ from typing import Optional, List
 from models.events import Event
 
 
-class Users(BaseModel):
+class User(BaseModel):
     email: EmailStr
     password: str
     events: Optional[List[Event]]
